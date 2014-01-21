@@ -11,5 +11,6 @@
 @interface MyScene : SKScene
 
 @property(strong) SKAction *sequence;
+@property(strong) SKTextureAtlas *atlas;
 
 @end

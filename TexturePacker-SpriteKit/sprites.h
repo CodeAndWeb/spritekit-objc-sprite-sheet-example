@@ -1,6 +1,6 @@
 // ---------------------------------------
 // Sprite definitions for sprites
-// Generated with TexturePacker 3.1.3
+// Generated with TexturePacker 3.2.1
 //
 // http://www.codeandweb.com/texturepacker
 // ---------------------------------------

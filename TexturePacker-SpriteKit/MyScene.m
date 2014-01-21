@@ -23,6 +23,9 @@
 
 -(void)initScene
 {
+    // load the atlas explicitly, to avoid frame rate drop when starting a new animation
+    self.atlas = [SKTextureAtlas atlasNamed:SPRITES_ATLAS_NAME];
+    
     // load background image, and set anchor point to the bottom left corner (default: center of sprite)
     SKSpriteNode *background = [SKSpriteNode spriteNodeWithTexture:SPRITES_TEX_BACKGROUND];
     background.anchorPoint = CGPointMake(0, 0);
