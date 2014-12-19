@@ -20,20 +20,7 @@
 		AAE697BC17F0770700512D9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE697BB17F0770700512D9F /* ViewController.m */; };
 		AAE697BF17F0770700512D9F /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE697BE17F0770700512D9F /* MyScene.m */; };
 		AAE697C317F0770700512D9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE697C217F0770700512D9F /* Images.xcassets */; };
-		AAE697CA17F0770700512D9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE697C917F0770700512D9F /* XCTest.framework */; };
-		AAE697CB17F0770700512D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE697A017F0770700512D9F /* Foundation.framework */; };
-		AAE697CC17F0770700512D9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE697A417F0770700512D9F /* UIKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AAE697CD17F0770700512D9F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAE6979517F0770700512D9F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AAE6979C17F0770700512D9F;
-			remoteInfo = "TexturePacker-SpriteKit";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AA4B84A417F07E6D00733639 /* sprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sprites.atlasc; sourceTree = "<group>"; };
@@ -56,8 +43,6 @@
 		AAE697BD17F0770700512D9F /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		AAE697BE17F0770700512D9F /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
 		AAE697C217F0770700512D9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AAE697C817F0770700512D9F /* TexturePacker-SpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TexturePacker-SpriteKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE697C917F0770700512D9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +54,6 @@
 				AAE697A517F0770700512D9F /* UIKit.framework in Frameworks */,
 				AAE697A717F0770700512D9F /* SpriteKit.framework in Frameworks */,
 				AAE697A117F0770700512D9F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAE697C517F0770700512D9F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAE697CA17F0770700512D9F /* XCTest.framework in Frameworks */,
-				AAE697CC17F0770700512D9F /* UIKit.framework in Frameworks */,
-				AAE697CB17F0770700512D9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				AAE6979D17F0770700512D9F /* TexturePacker-SpriteKit.app */,
-				AAE697C817F0770700512D9F /* TexturePacker-SpriteKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +84,6 @@
 				AAE697A217F0770700512D9F /* CoreGraphics.framework */,
 				AAE697A417F0770700512D9F /* UIKit.framework */,
 				AAE697A617F0770700512D9F /* SpriteKit.framework */,
-				AAE697C917F0770700512D9F /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,37 +138,14 @@
 			productReference = AAE6979D17F0770700512D9F /* TexturePacker-SpriteKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AAE697C717F0770700512D9F /* TexturePacker-SpriteKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AAE697DC17F0770700512D9F /* Build configuration list for PBXNativeTarget "TexturePacker-SpriteKitTests" */;
-			buildPhases = (
-				AAE697C417F0770700512D9F /* Sources */,
-				AAE697C517F0770700512D9F /* Frameworks */,
-				AAE697C617F0770700512D9F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AAE697CE17F0770700512D9F /* PBXTargetDependency */,
-			);
-			name = "TexturePacker-SpriteKitTests";
-			productName = "TexturePacker-SpriteKitTests";
-			productReference = AAE697C817F0770700512D9F /* TexturePacker-SpriteKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		AAE6979517F0770700512D9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = CodeAndWeb;
-				TargetAttributes = {
-					AAE697C717F0770700512D9F = {
-						TestTargetID = AAE6979C17F0770700512D9F;
-					};
-				};
 			};
 			buildConfigurationList = AAE6979817F0770700512D9F /* Build configuration list for PBXProject "TexturePacker-SpriteKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -211,7 +161,6 @@
 			projectRoot = "";
 			targets = (
 				AAE6979C17F0770700512D9F /* TexturePacker-SpriteKit */,
-				AAE697C717F0770700512D9F /* TexturePacker-SpriteKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +178,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAE697C617F0770700512D9F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -250,22 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAE697C417F0770700512D9F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AAE697CE17F0770700512D9F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AAE6979C17F0770700512D9F /* TexturePacker-SpriteKit */;
-			targetProxy = AAE697CD17F0770700512D9F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AAE697AB17F0770700512D9F /* InfoPlist.strings */ = {
@@ -299,7 +226,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -339,7 +265,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -397,48 +322,6 @@
 			};
 			name = Release;
 		};
-		AAE697DD17F0770700512D9F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TexturePacker-SpriteKit.app/TexturePacker-SpriteKit";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TexturePacker-SpriteKit/TexturePacker-SpriteKit-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TexturePacker-SpriteKitTests/TexturePacker-SpriteKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AAE697DE17F0770700512D9F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TexturePacker-SpriteKit.app/TexturePacker-SpriteKit";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TexturePacker-SpriteKit/TexturePacker-SpriteKit-Prefix.pch";
-				INFOPLIST_FILE = "TexturePacker-SpriteKitTests/TexturePacker-SpriteKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,15 +339,6 @@
 			buildConfigurations = (
 				AAE697DA17F0770700512D9F /* Debug */,
 				AAE697DB17F0770700512D9F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAE697DC17F0770700512D9F /* Build configuration list for PBXNativeTarget "TexturePacker-SpriteKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAE697DD17F0770700512D9F /* Debug */,
-				AAE697DE17F0770700512D9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
